@@ -1,0 +1,457 @@
+/* Hero section */
+
+/* Hero section */
+
+.hero {
+
+    display: flex;
+
+    flex-direction: row;
+
+    justify-content: center;
+
+    margin-top: 6.5rem;
+
+}
+
+.hero__icon {
+
+    width: 19rem;
+
+    height: 19rem;
+
+}
+
+.hero__text{
+    padding-right: 10rem;
+
+    align-items: center;
+}
+
+.red{
+    color: var(--red-highlight);
+}
+
+/* Section adresses */
+.adresses{
+    margin-top: 7rem;
+}
+
+.info__restos{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-top:5rem;
+
+}
+
+.localisation{
+    margin-left:2rem;
+}
+
+.savoir-faire{
+    margin-top : 6.5rem;
+    text-align: justify;
+    margin-left: 1rem;
+    margin-right: 1rem;
+}
+
+.rs{
+    margin-top: 5rem;
+}
+
+.social{
+    margin-top:3rem;
+    justify-items: center;
+}
+
+
+.social-img{
+    padding-right:2rem;
+}
+
+.social-2{
+    margin-top:3rem;
+}
+
+.contact-page h1{
+    text-align:center;
+}
+
+.contact-page__addresses{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+
+}
+
+.contact-page__addresses span{
+    font-weight: bold;
+}
+
+
+.contact-page__addresses div{
+    margin-right : 2rem;
+
+}
+
+.menu{
+    margin-left: 5rem;
+}
+
+.menu-img {
+    width : 8.125rem;
+    height : 8.125rem;
+    margin-top: 5rem;
+}
+
+.menu span{
+    color: var(--red-highlight);
+}
+
+.menu__items{
+    justify-items: center;
+    background-color: var(--white);
+    margin-right:5rem;
+    padding-bottom: 5rem;
+}
+
+.menu__items span{
+    font-weight: bold;
+    color : var(--black);
+    justify-content: center;
+}
+
+.items{
+    text-align: center;
+}
+
+.items-info{
+    margin-bottom:2rem;
+}
+
+.items h2{
+    padding-top: 3rem;
+    padding-bottom: 3rem;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media (min-width: 320px) and (max-width: 375px) {
+     /* Section hero */
+
+     .hero {
+
+        display: flex;
+
+        flex-direction: row;
+
+        justify-content: center;
+
+        margin-top: 6.5rem;
+
+        margin-left: 2rem;
+
+        margin-right: 2rem;
+
+    }
+
+    .hero__text{
+        padding: 0px;
+
+    }
+
+    .hero__icon {
+
+        width: 7rem;
+
+        height: 7rem;
+
+    }
+
+    /* Fin Section hero */
+
+    /* Section adresses */
+
+    .info__restos{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        margin-top:5rem;
+        padding : 1rem;
+
+
+    }
+
+
+
+    .localisation{
+        margin-left:1rem;
+    }
+
+    /* Fin Section adresse */
+
+    /* Section réseaux sociaux */
+
+    .social-img{
+        padding-left:2.5rem;
+        padding-bottom: 1rem;
+    }
+
+    /* Fin Section réseaux sociaux */
+
+    .menu{
+        margin-top: 5rem;
+        margin-left:1rem;
+    }
+
+    .menu h1 {
+        
+        text-align: center;
+    }
+
+    .menu h1 + p {
+        width: 20rem;
+        text-align: center;
+    }
+
+    .menu__items{
+        margin-right:1rem;
+        padding-bottom: 5rem;
+    }
+
+    /* Section Menu contact */
+
+    .contact-page__addresses{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    
+    }
+
+    .contact-page{
+        margin-top:5rem;
+        margin-left: 1.5rem;
+        margin-right: 0rem;
+
+    }
+
+
+    /* Fin Section Menu contact */
+
+}
+
+
+
+
+
+@media (min-width: 376px) and (max-width: 425px) {
+    /* Section hero */
+
+    .hero {
+
+        display: flex;
+
+        flex-direction: row;
+
+        justify-content: center;
+
+        margin-top: 6.5rem;
+
+        margin-left: 2rem;
+
+        margin-right: 2rem;
+
+    }
+
+    .hero__text{
+        padding: 0px;
+
+    }
+
+    .hero__icon {
+
+        width: 8rem;
+
+        height: 8rem;
+
+    }
+
+    /* Fin Section hero */
+
+    /* Section adresses */
+
+    .info__restos{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        margin-top:5rem;
+        padding : 1rem;
+
+
+    }
+
+
+    #localisation-2 {
+        margin-left : 2rem;
+
+    }
+
+    /* Fin Section adresse */
+
+    /* Section réseaux sociaux */
+
+    #social-img-1{
+        padding-left: 12rem;
+        padding-bottom : 2rem;
+    }
+
+    #social-img-2{
+        padding-left:2.5rem;
+
+    }
+
+    #social-img-3{
+        padding-top:2rem;
+        padding-left: 12rem;
+    }
+
+    #social-img-4{
+        padding-left:2.5rem;
+
+    }
+
+    #social-img-5{
+        padding-left: 12rem;
+        padding-top:2rem;
+        padding-bottom : 2rem;
+    }
+
+    #social-img-6{
+        padding-left:2.5rem;
+
+    }
+
+    /* Fin Section réseaux sociaux */
+
+    .menu{
+        margin-top: 5rem;
+    }
+
+    .menu h1 + p {
+        width: 16rem;
+    }
+
+    /* Section Menu contact */
+
+    .contact-page{
+        margin-top:5rem;
+        margin-left: 1.5rem;
+        margin-right: 0rem;
+
+    }
+
+
+    /* Fin Section Menu contact */
+
+
+}
+
+
+@media (min-width: 426px) and (max-width: 768px) {
+
+    /* Section hero */
+
+    .hero {
+
+        display: flex;
+
+        flex-direction: row;
+
+        justify-content: center;
+
+        margin-top: 6.5rem;
+
+        margin-left: 3rem;
+
+        margin-right: 3rem;
+
+    }
+
+    .hero__text{
+        padding-right: 0px;
+
+    }
+
+    .hero__icon {
+
+        width: 15rem;
+
+        height: 15rem;
+
+    }
+
+    /* Fin Section hero */
+
+    /* Section adresses */
+
+    .info__restos{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        margin-top:5rem;
+    }
+
+
+    #localisation-2 {
+        margin-left : 17rem;
+        margin-bottom : 2rem;
+        margin-top : 2rem;
+
+    }
+
+    /* Fin Section adresse */
+
+    /* Section réseaux sociaux */
+
+
+    #social-img-3{
+        padding-top:2rem;
+        padding-left: 9rem;
+    }
+
+    #social-img-6{
+        padding-top:2rem;
+        padding-left: 9rem;
+    }
+
+    /* Fin Section réseaux sociaux */
+
+    /* Section Menu contact */
+
+    .contact-page__addresses{
+        margin-left:1rem;
+
+    }
+
+    /* Fin Section Menu contact */
+
+
+
+}
+
+
+
+

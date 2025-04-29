@@ -1,0 +1,19 @@
+.contact {
+    text-align: center;
+    margin-top: 6.5rem;
+}
+
+.contact span{
+    font-weight: bold;
+}
+
+
+@media (min-width: 320px) and (max-width: 375px) {
+    .contact {
+        margin : 1rem;
+        text-align: justify;
+        margin-top: 3rem;
+    }
+
+
+}

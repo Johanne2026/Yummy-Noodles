@@ -1,0 +1,192 @@
+/* Modules */
+
+@import 'modules/appBar.css';
+@import 'pages/home.css';
+@import 'modules/cta.css';
+@import 'modules/clicknCollect.css';
+@import 'modules/footer.css';
+@import 'modules/contact.css';
+
+
+/* Design System */
+
+:root {
+    /* Colors */
+    --red-highlight: #D2483D;
+    --light-grey: #F3F3F3;
+    --white: #FFFFFF;
+    --black: #000000;
+
+    /* Fonts */
+
+    --body-font: 'Montserrat';
+    --body-highlight-font: 'Montserrat';
+    --header-font: 'Bebas Neue';
+    --title-font: 'Bebas Neue';
+
+    --body-font-weight: 400;
+    --body-highlight-font-weight: 600;
+    --header-font-weight: 400;
+    --title-font-weight: 400;
+
+    --body-font-size: 1.25rem;
+    --body-highlight-font-size: 1.25rem;
+    --header-font-size: 4.5rem;
+    --title-font-size: 1.5rem;
+
+    --body-line-height: 1.5rem;
+    --body-highlight-line-height: 1.5rem;
+    --header-line-height: 5.375rem;
+    --title-line-height: 1.75rem;
+}
+
+body {
+
+    background-color: var(--light-grey);
+
+    font-family: var(--body-font);
+
+    font-style: normal;
+
+    font-weight: var(--body-font-weight);
+
+    font-size: var(--body-font-size);
+
+    line-height: var(--body-line-height);
+
+    color: var(--black);
+
+    width: 100%;  
+
+}
+
+
+
+h1 {
+
+    font-family: var(--header-font);
+
+    font-style: normal;
+
+    font-weight: var(--header-font-weight);
+
+    font-size: var(--header-font-size);
+
+    line-height: var(--header-line-height);
+
+    color: var(--black);
+
+    margin-top: 3rem;
+
+    margin-bottom: 1rem;
+
+
+
+}
+
+
+
+h2 {
+
+    font-family: var(--title-font);
+
+    font-style: normal;
+
+    font-weight: var(--title-font-weight);
+
+    font-size: var(--title-font-size);
+
+    line-height: var(--title-line-height);
+
+    color: var(--black);
+
+    text-decoration: underline var(--red-highlight);
+
+    text-underline-offset: 0.25rem;
+
+    text-decoration-thickness: 0.188rem;
+
+    text-align: center;
+
+
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Breackpoint Petits écrans (320 à 425px) */
+@media (min-width: 320px) and (max-width: 425px) {
+
+    :root {
+  
+        /* Mobile Variables */
+    
+        --body-font-size: 1rem;
+    
+        --body-highlight-font-size: 1rem;
+    
+        --header-font-size: 2rem;
+    
+        --title-font-size: 1.5rem;
+    
+    
+    
+        --body-line-height: 1.25rem;
+  
+        --body-highlight-line-height: 1.25rem;
+    
+        --header-line-height: 0rem;
+    
+        --title-line-height: 1.5rem;
+        
+    }
+
+
+    h1 {
+    
+        margin-top: 0.5rem;
+        margin-bottom: 1rem;
+    
+    }
+    
+
+
+  
+}
+
+/* Breackpoint Tablettes (768px) */
+@media (min-width: 426px) and (max-width: 768px) {
+
+    :root {
+  
+      /* Mobile Variables */
+  
+      --body-font-size: 1rem;
+  
+      --body-highlight-font-size: 1rem;
+  
+      --header-font-size: 2.5rem;
+  
+      --title-font-size: 1.25rem;
+  
+  
+  
+      --body-line-height: 1.25rem;
+  
+      --body-highlight-line-height: 1.25rem;
+  
+      --header-line-height: 3rem;
+  
+      --title-line-height: 1.5rem;
+  
+    }
+  
+}
+
+
+  
+
+
